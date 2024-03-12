@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clock-image {
+    position: absolute;
+    width: 750px;
+    height: 750px;
+    background-color: #1033ff;
+    border-radius: 100%;
+}
+.second {
+    font-size: 24px;
+    color: red;
+    position: absolute;
+}
+.minute {
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+}
+.hour{
+    font-size: 24px;
+    color: rgb(215, 236, 25);
+    position: absolute;
+}
+.circle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000000;
+    border-radius: 50%;
+}
